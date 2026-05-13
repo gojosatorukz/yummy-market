@@ -1,0 +1,43 @@
+name: yummy_market
+description: Final Project for Cross-Platform Mobile Development.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # Навигация
+  go_router: ^13.2.0
+  # Управление состоянием
+  flutter_riverpod: ^2.5.1
+  # Сеть (API)
+  chopper: ^7.0.0
+  # Локальная база (SQLite)
+  drift: ^2.16.0
+  sqlite3_flutter_libs: ^0.5.20
+  path_provider: ^2.1.2
+  path: ^1.9.0
+  # Настройки
+  shared_preferences: ^2.2.2
+  # Облако (Firebase)
+  firebase_core: ^4.8.0
+  cloud_firestore: ^6.4.0
+  # Генерация кода
+  json_annotation: ^4.8.1
+  freezed_annotation: ^2.4.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+  # Инструменты генерации
+  build_runner: ^2.4.8
+  chopper_generator: ^7.0.0
+  drift_dev: ^2.16.0
+  json_serializable: ^6.7.1
+  freezed: ^2.4.7
+
+flutter:
+  uses-material-design: true
